@@ -12,6 +12,6 @@ public class HelloController {
     public static void main(String[] args) {
         logger.info("hello world！");
         logger.info("检查代码！");
-        System.out.println("hello");
+        System.out.println("helloceshicheihi");
     }
 }
