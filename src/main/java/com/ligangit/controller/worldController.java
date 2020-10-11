@@ -8,11 +8,11 @@ import org.slf4j.LoggerFactory;
  *  @author ligang
  *  @date 2020/10/11
  */
-public class HelloController {
+public class worldController {
     /**
      * 日志
      */
-    private static final Logger LOGGER = LoggerFactory.getLogger(HelloController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(worldController.class);
 
     public void hello() {
         LOGGER.info("hello world！");

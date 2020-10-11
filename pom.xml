@@ -8,6 +8,11 @@
     <artifactId>check_code</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <checkstyle.config.location>checkstyle.xml</checkstyle.config.location>
+    </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
@@ -17,5 +22,89 @@
         </dependency>
 
     </dependencies>
+
+    <!--<build>-->
+        <!--&lt;!&ndash;<pluginManagement>&ndash;&gt;-->
+            <!--&lt;!&ndash;<plugins>&ndash;&gt;-->
+                <!--&lt;!&ndash;<plugin>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<groupId>org.apache.maven.plugins</groupId>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<artifactId>maven-site-plugin</artifactId>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<version>3.7.1</version>&ndash;&gt;-->
+                <!--&lt;!&ndash;</plugin>&ndash;&gt;-->
+                <!--&lt;!&ndash;<plugin>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<groupId>org.apache.maven.plugins</groupId>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<artifactId>maven-project-info-reports-plugin</artifactId>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<version>2.9</version>&ndash;&gt;-->
+                <!--&lt;!&ndash;</plugin>&ndash;&gt;-->
+            <!--&lt;!&ndash;</plugins>&ndash;&gt;-->
+        <!--&lt;!&ndash;</pluginManagement>&ndash;&gt;-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
+                <!--<version>3.1.1</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>checkstyle</id>-->
+                        <!--<phase>validate</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>check</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<failOnViolation>true</failOnViolation>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+
+    <!--<reporting>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
+                <!--<version>3.1.1</version>-->
+                <!--<reportSets>-->
+                    <!--<reportSet>-->
+                        <!--<reports>-->
+                            <!--<report>checkstyle</report>-->
+                        <!--</reports>-->
+                    <!--</reportSet>-->
+                <!--</reportSets>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</reporting>-->
+
+    <!--<build>-->
+        <!--&lt;!&ndash; To define the plugin version in your parent POM &ndash;&gt;-->
+        <!--<pluginManagement>-->
+            <!--<plugins>-->
+                <!--<plugin>-->
+                    <!--<groupId>org.apache.maven.plugins</groupId>-->
+                    <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
+                    <!--<version>3.1.1</version>-->
+                <!--</plugin>-->
+            <!--</plugins>-->
+        <!--</pluginManagement>-->
+        <!--&lt;!&ndash; To use the plugin goals in your POM or parent POM &ndash;&gt;-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
+                <!--<version>3.1.1</version>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+    <!--&lt;!&ndash; To use the report goals in your POM or parent POM &ndash;&gt;-->
+    <!--<reporting>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
+                <!--<version>3.1.1</version>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</reporting>-->
 
 </project>
