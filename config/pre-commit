@@ -22,7 +22,7 @@ def get_file_name(content, postfix=None):
 jarpath = os.popen('git config --get checkstyle.jar').read()
 checkfilepath = os.popen('git config --get checkstyle.checkfile').read()
 
-#check code command
+#check code command.gitignore
 command = 'java -jar ' + jarpath[:-1] + ' -c ' + checkfilepath[:-1]
 
 #the file to check

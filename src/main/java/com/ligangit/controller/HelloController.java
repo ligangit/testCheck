@@ -17,7 +17,7 @@ public class HelloController {
     public void hello() {
         LOGGER.info("hello world！");
         LOGGER.info("检查代码！");
-        String AABBcc = "abnkfdh";
-        System.out.println("helloceshichecihi");
+        String AABBcc = "abnkvv33fdh";
+        System.out.println("helles33hichecihi");
     }
 }
